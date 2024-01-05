@@ -47,6 +47,7 @@ def handle_messages(message):
                 return
             if intent["tag"] == "despedida":
                 bot.reply_to(message,respuesta)
+                return 
             mensaje_respuesta = respuesta.format(hora=str(datetime.now().time())[:5], fecha=str(datetime.now().date()))
             bot.send_message(message.chat.id, mensaje_respuesta)
             return
