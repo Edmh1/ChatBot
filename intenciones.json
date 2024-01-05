@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "palabras_clave": ["hola", "saludos", "buen día", "buenas tardes", "buenas noches"],
+        "respuestas": ["¡Hola!", "Hola, ¿cómo estás?", "¡Saludos!", "Buen día", "Buenas tardes"]
+      },
+      {
+        "tag": "despedida",
+        "palabras_clave": ["adios","adiós", "hasta luego", "nos vemos", "chau", "hasta pronto", "hasta la vista"],
+        "respuestas": ["¡Hasta luego!", "Adiós", "Nos vemos", "Hasta pronto", "Hasta la vista"]
+      },
+      {
+        "tag": "hora",
+        "palabras_clave": ["que hora es, sabes que hora es", "actual", "decirme la hora", "hora"],
+        "respuestas": ["La hora actual es {hora}", "Son las {hora} en este momento", "En este momento, son las {hora}"]
+      },
+      {
+        "tag": "fecha",
+        "palabras_clave": ["que fecha es hoy", "que dia", "hoy", "fecha"],
+        "respuestas": ["La fecha actual es {fecha}", "hoy es el dia {fecha}"]
+      },
+      {
+        "tag": "quien_es_presidente",
+        "palabras_clave": ["presidente","colombia", "quien es el presidente"],
+        "respuestas": ["El actual presidente de Colombia es petro"]
+      },
+      {
+        "tag": "pregunta_especial",
+        "palabras_clave": ["hello there"],
+        "respuestas": ["general kenobi"]
+      }
+    ]
+  }
+  
