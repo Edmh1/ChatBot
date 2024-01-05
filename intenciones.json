@@ -7,7 +7,7 @@
       },
       {
         "tag": "despedida",
-        "palabras_clave": ["adios","adiós", "hasta luego", "nos vemos", "chau", "hasta pronto", "hasta la vista"],
+        "palabras_clave": ["adios","adiós", "hasta luego", "nos vemos", "chau", "hasta pronto"],
         "respuestas": ["¡Hasta luego!", "Adiós", "Nos vemos", "Hasta pronto", "Hasta la vista"]
       },
       {
