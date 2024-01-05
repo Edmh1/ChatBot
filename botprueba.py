@@ -29,7 +29,7 @@ def handle_messages(message):
     for intent in intents_data:
         max_similitud = max(calcular_similitud(palabra_clave, mensaje) for palabra_clave in intent["palabras_clave"])
         
-        if quien_es_presidente_activada and max_similitud >0.4:
+        if quien_es_presidente_activada and any(palabra_clave in mensaje for palabra_clave in ["nacio", "nacimiento", "presidente"]):
                 respuesta_local = "El presidente de Colombia nació en {lugar_nacimiento}."
                 bot.send_message(message.chat.id, respuesta_local.format(lugar_nacimiento="Ciénaga de Oro"))
                 quien_es_presidente_activada = False 
