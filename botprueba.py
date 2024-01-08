@@ -3,9 +3,9 @@ import json
 from datetime import datetime
 import random
 from difflib import SequenceMatcher
+from config import *
 
-token = "6927816640:AAEhaTzLmHGcSb5_v96zv7iOp9P516TwADQ"
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(TOKEN)
 
 quien_es_presidente_activada = False
 umbral_confianza = 0.6 
